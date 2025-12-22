@@ -1,7 +1,14 @@
+
+import User from "./chai"
+
 function App() {
   return (
-    <h1>chai aur react with vite | Haris Shahnawaz
-    </h1>
+  <>
+    <User/>
+    <h1>user two</h1>
+    <p>test js</p>
+  </>    
+    
   )
 }
 
