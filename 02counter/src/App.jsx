@@ -9,12 +9,12 @@ function App() {
     counter = counter + 1;
     
   }
- let counter =  15
+ let counter =  20
   return (
     <>
   <h1>Chai or react</h1>
   <h2>Counter value : {counter}</h2>
-  <button onClick={addvalue}>Add Value</button>
+  <button onClick={addvalue}> Add Value </button>
   <br />
   <button>Remove value</button>
    
