@@ -12,7 +12,7 @@ function App() {
  let counter =  20
   return (
     <>
-  <h1>Chai or react</h1>
+  <h1>React Learning Program</h1>
   <h2>Counter value : {counter}</h2>
   <button onClick={addvalue}> Add Value </button>
   <br />
