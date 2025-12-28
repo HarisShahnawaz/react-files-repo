@@ -9,7 +9,7 @@ function App() {
     counter = counter + 1;
     
   }
- let counter =  20
+ let counter =  15
   return (
     <>
   <h1>React Learning Program</h1>
