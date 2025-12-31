@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <h1>React Learning Program</h1>
+      <h1>React  Program</h1>
       <h2>Counter value : {counter}</h2>
       <button onClick={addValue}> Add Value {counter} </button>
       <br />
