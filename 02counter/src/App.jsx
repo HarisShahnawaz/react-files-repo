@@ -8,7 +8,7 @@ function App() {
   const [counter, setCounter] = useState(15)
 
   const addValue = () => {
-    if (counter < 30) {
+    if (counter < 40) {
       setCounter(counter + 1)
     }
   }
