@@ -14,7 +14,7 @@ function Github() {
     
     return (
         <div className='bg-gray-400 text-white text-3xl m-4 text-center'>
-            Github Followers: {data.followers}
+            My Github Followers: {data.followers}
             <img src={data.avatar_url} alt="git picture" width={300}/>
         </div>
     );
