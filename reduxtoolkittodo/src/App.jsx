@@ -10,7 +10,7 @@ function App() {
   return (
    <>
     <h1 >
-    learn about redux toolkit
+    this is my redux toolkit todo app
   </h1>
   <AddTodo />
   <Todos />
