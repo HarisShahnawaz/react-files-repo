@@ -7,7 +7,7 @@ export class AuthService {
     account;
     constructor(){
         this.client
-        .setEndpoint(conf.appwiteUrl)
+        .setEndpoint(conf.appwriteUrl)
         .setProject(conf.appwriteProjectId);
        this.account = new Account(this.client);
     }
@@ -46,7 +46,7 @@ export class AuthService {
 
     async logout(){
         try {
-            await this.account.deleteSessions("current");
+            await this.account.deleteSessions();
         } catch (error) {
                         console.log("appwrite service :: getCurrentUser :: error", error);
 
