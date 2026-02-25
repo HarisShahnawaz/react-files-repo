@@ -17,7 +17,7 @@ export default function Protected({children, authentication = true}) {
         //     navigate("/login")
         // }
         
-        //let authValue = authStatus === true ? true : false   this is the same as authStatus because authStatus is already a boolean value
+        //let authValue = authStatus === true ? true : false   comment: this is the same as authStatus because authStatus is already a boolean value
 
         if(authentication && authStatus !== authentication){
             navigate("/login")
