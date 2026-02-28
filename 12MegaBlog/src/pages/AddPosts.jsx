@@ -11,4 +11,4 @@ function AddPost() {
   )
 }
 
-export default AddPosts
+export default AddPost
